@@ -1,0 +1,14 @@
+# IntelliJ IDEA specific
+.idea/
+*.iml
+out/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# OS-specific files
+.DS_Store
+Thumbs.db
