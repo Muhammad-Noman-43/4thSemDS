@@ -34,6 +34,6 @@ This project is for educational purposes. Feel free to explore and learn from it
 
 ## 🔗 Connect with me
 
-🧰 You can connect with me on LinkedIn [here](www.linkedin.com/in/m-noman-cs)
+🧰 You can connect with me on LinkedIn [here](https://www.linkedin.com/in/m-noman-cs)
 
 📧 Or email me [here](mailto:muhammadnoman.cs@gmail.com)
