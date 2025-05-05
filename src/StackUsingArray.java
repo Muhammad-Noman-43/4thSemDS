@@ -1,7 +1,7 @@
 public class StackUsingArray<T>{
     T[] array;
     StackUsingArray(int n){
-        T[] array = (T[]) new Object[n];
+        array = (T[]) new Object[n];
     }
     int top = -1;
     
