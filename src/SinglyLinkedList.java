@@ -91,6 +91,7 @@ public class SinglyLinkedList<T>{
             T data = temp.next.data;
             System.out.println("Item at end deleted: "+data);
             temp.next = null;
+            end = temp;
             return data;
         }
     }

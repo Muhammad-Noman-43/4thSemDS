@@ -31,13 +31,13 @@ public class StackUsingArray<T>{
         return array[top];
     }
     
-    private boolean isEmpty(){
+    boolean isEmpty(){
         if(top == -1)
             return true;
         return false;
     }
     
-    private boolean isFull(){
+    boolean isFull(){
         if(top == array.length-1)
             return true;
         return false;
