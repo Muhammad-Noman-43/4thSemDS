@@ -102,10 +102,9 @@ public class SinglyLinkedList<T>{
             System.out.println("List is empty");
         }
         while(temp != null){
-            System.out.print(temp.data+" --> ");
+            System.out.print(temp.data+" ");
             temp = temp.next;
         }
-        System.out.println("null");
         System.out.println();
     }
     

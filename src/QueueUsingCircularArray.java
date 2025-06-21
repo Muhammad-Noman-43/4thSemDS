@@ -1,17 +1,17 @@
 public class QueueUsingCircularArray <T> {
     T[] arr;
-    int head = -1, tail = -1, noOfElements = 0;
+    int head = -1, tail = -1;
     
     QueueUsingCircularArray(int size){
         arr = (T[]) new Object[size];
     }
     
     boolean isEmpty(){
-        return noOfElements == 0;
+        return head == -1;
     }
     
     boolean isFull(){
-        return noOfElements == arr.length;
+        return arr[(tail+1)%arr.length] != null;
     }
     
     void enqueue(T data){
@@ -25,7 +25,6 @@ public class QueueUsingCircularArray <T> {
         }
         tail = ++tail % arr.length;
         arr[tail] = data;
-        noOfElements++;
     }
     
     T dequeue(){
@@ -39,9 +38,6 @@ public class QueueUsingCircularArray <T> {
         // Head is passed near to tail so that if there were two elements, both can be at the same index after
         // de-queueing the first element
         head = ++head % arr.length;
-        if(noOfElements == 2)
-            tail = ++tail % arr.length;
-        noOfElements--;
         return data;
     }
     

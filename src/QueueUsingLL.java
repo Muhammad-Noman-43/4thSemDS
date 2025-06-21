@@ -29,11 +29,9 @@ public class QueueUsingLL <G>{
             head = null;
             tail = null;
         }
-        
-        head = head.next;
+        else
+            head = head.next;
         return data;
-
-
     }
     
     G peek(){
