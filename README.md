@@ -10,6 +10,15 @@ Each file in the repository represents a different data structure implemented us
 - `CircularLinkedList.java` – Implementation of a circular linked list.
 - `StackUsingArray.java` – Stack implemented using an array.
 - `StackUsingLL.java` – Stack implemented using a linked list.
+- `NotationsWithStack` - Conversion and evaluation of prefix, postfix, and infix expressions
+- `QueueusingArray` - Implementation of Queue using an array
+- `QueueUsingLL` - Implementation of Queue using a linked list
+- `QueueUsingCircularArray` - Implementation of Queue using a circular array
+- `QueueUsingStack` - Implementation of Queue using stacks
+- `PrioritQueue` - Implementation of Priority Queues using already built queues
+- `BST` - Implementation of Binary Search Tree
+- `AVL` - Implementation of Adelson-Velsky and Landis Tree (self-balancing tree)
+- `Graphs` - (Coming soon...)
 
 
 More structures will be added as I continue learning.
